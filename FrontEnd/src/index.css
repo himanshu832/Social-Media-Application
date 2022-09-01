@@ -1,0 +1,115 @@
+.landingtext{
+    text-align: center;
+    color:white;
+   
+}
+.landingbutton{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.landing{
+    background: url(background.png) no-repeat center center fixed;
+    background-size: cover;
+
+    height: 800px;
+    
+   
+}
+#land{
+padding: 20%;
+ backdrop-filter: brightness(0.5);
+ min-height: 800px;
+}
+
+.Loginandregister{
+    margin-left: 15%;
+    line-height: 25px;
+}
+input{
+    width:60%;
+    padding: 2px 10px 2px 10px;
+    /* padding-left: 10px; */
+    margin: 10px;
+    margin-left: 0px;
+    display: block;
+}
+.greenbtn{
+    border: none;
+    color: #fff;
+    background-color: rgb(3, 51, 35);
+   
+    font-size: 10px;
+    padding: 2px 20px 2px 20px;
+    
+}
+h2{
+    color: rgb(6, 92, 63);
+}
+.linkgreen{
+    color: rgb(7, 97, 67);
+    font-weight: 700;
+}
+
+
+/* posts */
+.postflex{
+    background-color: grey;
+    display: flex;
+    width: 85%;
+    /* margin:10%; */
+    padding: 5px 20px 5px 20px;
+    justify-content:flex-start;
+    /* margin-right: 350px; */
+}
+img{
+    margin:15px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+}
+.description{
+    margin-left: 25px;
+}
+.buttonflex{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.description button{
+    border:none;
+    color: white;
+    box-shadow: rgb(3, 51, 35);
+    padding: 2px 10px 2px 10px;
+}
+
+.like{
+    background-color: rgb(57, 180, 57);
+}
+.dislike{
+    background-color: red;
+}
+.discussions{
+    background-color: rgb(0, 119, 255);
+}
+.delete{
+    background-color: red;
+}
+.textareaflex{
+    display: flex;
+    justify-content:start ;
+   
+}
+.postmargin{
+    margin-bottom: 8px;
+}
+
+/* comments */
+.commentbox{
+    margin-right: 15%;
+    padding: 10px 20px 10px 20px;
+ 
+    background-color: cadetblue;
+}
